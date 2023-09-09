@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+main {
+  height: 100%;
+}
+
+header {
+  padding: 2rem;
+  background-color: lightgray;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav {
+  background-color: #3d5b59;
+  padding: 1.5%;
+}
+
+.banner {
+  background-image: url(./img/banner.jpg);
+  /* width: 100%;
+  /* padding: 10%; */
+  height: 30%;
+  background-size: contain;
+  color: white;
+}
+
+.banner h1 {
+  margin: 0;
+}
+
+.banner span {
+  color: #fcb5ac;
+  text-decoration: underline;
+}
+
+.tagline {
+  background-color: #b5e5cf;
+  height: 10%;
+}
+
+.tagline h5 {
+  margin: 0;
+}
