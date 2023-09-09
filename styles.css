@@ -14,6 +14,16 @@ body {
   margin: 0;
 }
 
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 main {
   height: 100%;
 }
@@ -43,10 +53,6 @@ nav {
   color: white;
 }
 
-.banner h1 {
-  margin: 0;
-}
-
 .banner span {
   color: #fcb5ac;
   text-decoration: underline;
@@ -57,6 +63,15 @@ nav {
   height: 10%;
 }
 
-.tagline h5 {
-  margin: 0;
+.process {
+  background-color: #36454f;
+}
+
+.process h3 {
+  color: #b99095;
+}
+
+.skills {
+  height: 20%;
+  background-color: lightgray;
 }
