@@ -26,6 +26,7 @@ p {
 
 main {
   height: 100%;
+  width: 100%;
 }
 
 header {
@@ -65,15 +66,17 @@ nav {
   align-content: center;
   flex-wrap: wrap;
   background-color: #3d5b59;
-  padding: 1.5%;
+  /* padding: 1%; */
   width: 80%;
-  height: 80%;
+  height: 70%;
 }
 
 .banner {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
   background-image: url(./img/banner.jpg);
-  /* width: 100%;
-  /* padding: 10%; */
   height: 40%;
   background-size: contain;
   color: lightgray;
@@ -85,17 +88,50 @@ nav {
 }
 
 .tagline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   background-color: #b5e5cf;
   height: 15%;
+  font-size: 1.5rem;
+  padding: 2rem;
 }
 
 .process {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   background-color: #36454f;
-  height: 30%;
+  height: 40%;
 }
+
+/* .process__semi-circles {
+  width: 100%;
+  height: 20%;
+} */
 
 .process h3 {
   color: #b99095;
+  font-size: 1.5rem;
+  padding-bottom: 5%;
+}
+
+.process p {
+  color: lightgray;
+}
+
+.process__card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  align-content: center;
+  text-align: center;
+  width: 15%;
+  height: 100%;
+  padding-bottom: 1rem;
 }
 
 .skills {
